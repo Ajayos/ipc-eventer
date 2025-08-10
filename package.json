@@ -1,0 +1,48 @@
+{
+  "name": "ipc-eventer",
+  "version": "1.0.0",
+  "description": "Cross-platform IPC event manager using Named Pipes (Windows) and Unix Domain Sockets (Linux/macOS) built with Node.js, based on aosx socket.",
+  "type": "module",
+  "main": "./cjs/index.cjs",
+  "module": "./esm/index.js",
+  "types": "./index.d.ts",
+  "exports": {
+    "import": "./esm/index.js",
+    "require": "./cjs/index.cjs"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Ajayos/ipc-eventer.git"
+  },
+  "author": "Ajay O S",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/Ajayos/ipc-eventer/issues"
+  },
+  "keywords": [
+    "ipc",
+    "named-pipes",
+    "unix-domain-sockets",
+    "nodejs",
+    "event-emitter"
+  ],
+  "files": [
+    "cjs/",
+    "esm/",
+    "index.d.ts",
+    "README.md",
+    "LICENSE"
+  ],
+  "homepage": "https://github.com/Ajayos/ipc-eventer#readme",
+  "dependencies": {
+    "chalk": "^5.5.0",
+    "crypto-js": "^4.2.0",
+    "node-ipc": "^12.0.0",
+    "ora": "^8.2.0",
+    "unique-names-generator": "^4.7.1",
+    "uuid": "^11.1.0"
+  }
+}
