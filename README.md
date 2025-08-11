@@ -1,4 +1,7 @@
-# ipc-eventer
+[![ipc-eventer](./ipc-eventer.jpeg)](https://github.com/Ajayos/ipc-eventer)
+
+
+---
 
 [![npm version](https://img.shields.io/npm/v/ipc-eventer.svg?style=flat\&color=brightgreen)](https://www.npmjs.com/package/ipc-eventer)
 [![license](https://img.shields.io/badge/license-MIT-blue.svg)](LICENSE)
