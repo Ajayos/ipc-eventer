@@ -88,9 +88,6 @@ export interface IPCClientOptions {
 
   /** Password matching the server for encryption */
   password?: string;
-
-  /** Optional override username */
-  username?: string;
 }
 
 /**

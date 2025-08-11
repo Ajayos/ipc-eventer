@@ -5,7 +5,7 @@
 
 [![npm version](https://img.shields.io/npm/v/ipc-eventer.svg?style=flat\&color=brightgreen)](https://www.npmjs.com/package/ipc-eventer)
 [![license](https://img.shields.io/badge/license-MIT-blue.svg)](LICENSE)
-[![Node.js](https://img.shields.io/badge/node-%3E%3D%2018-brightgreen.svg)](https://nodejs.org)
+[![Node.js](https://img.shields.io/badge/node-%3E%3D%2016-brightgreen.svg)](https://nodejs.org)
 
 ---
 
@@ -51,7 +51,7 @@ Key features include **automatic reconnects**, **heartbeat monitoring**, and **m
 * **EventEmitter-based:** Easy `.on()` and `.emit()` methods for messaging.
 * **Heartbeat & auto-reconnect:** Detects dead connections and reconnects clients automatically.
 * **Clean disconnect handling:** Server can force disconnect clients gracefully.
-* **Lightweight:** Minimal dependencies, just `unique-names-generator` for usability.
+* **Lightweight:** Minimal dependencies, just Node.js core modules.
 
 ---
 
